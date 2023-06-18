@@ -1,0 +1,3 @@
+difinir une liste de dictionnaire contenant les informations des etudiants de la L3
+creer un fichier csv a partir de cette liste 
+Afficher le contenue du fichier csv
