@@ -9,11 +9,11 @@ def ajoutPersonne(list,indice,element):
     list.insert(indice, element)
     return list
 
-def modifierPersonne(list,indice):
+def modifierPersonne(list,indice,element):
     list[indice]=element
     return list
 
-def supprimerPersonne(indice):
+def supprimerPersonne(list,indice):
     del list[indice]
     return list
 
@@ -25,6 +25,6 @@ print(result)
 result1 = modifierPersonne(listPersonne,1,'Diouf')
 print(result1)
 
-result2 = supprimerPersonne(1,'Diouf')
+result2 = supprimerPersonne(listPersonne,0)
 print(result1)
 

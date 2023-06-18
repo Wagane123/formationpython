@@ -8,10 +8,10 @@
 
 def ajoutPersonne(a,i,val):
     if i<len(a) :
-        a[i:i]=[val]
+        a[i]=val
         
     else:
-        a[i]=[val]
+        a[i]=val
     print(a)
 
 
